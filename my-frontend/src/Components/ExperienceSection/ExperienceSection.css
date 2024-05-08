@@ -1,0 +1,8 @@
+.experience-section-container {
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--menu-border-color);
+}
+
+.experience-section-container h1 {
+    font-size: 2.5em
+}

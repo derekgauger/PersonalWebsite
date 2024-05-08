@@ -1,0 +1,28 @@
+
+
+.input-container {
+    position: relative;
+    padding-top: 20px; /* Space for label */
+}
+
+.input-container .label {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+}
+
+.input-container .label.active {
+    transform: translateY(-20px); /* Adjust as needed */
+    opacity: 1;
+    color: #000;
+}
+
+/* .text-input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} */

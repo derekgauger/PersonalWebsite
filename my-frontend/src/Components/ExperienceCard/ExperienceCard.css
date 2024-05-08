@@ -1,0 +1,55 @@
+.experience-card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin: 10px 20px;
+    background-color: var(--experience-card);
+    min-width: fit-content;
+}
+
+.title {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.company {
+    color: rgb(88, 88, 88);
+    font-size: 1em;
+}
+
+.date-range {
+    color: rgb(88, 88, 88);
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.15em;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.tech-used-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.tech-used {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tech {
+    height: 80px;
+}
+
+.tech-text {
+    text-align: center;
+    padding-bottom: 5px;
+    font-variant: small-caps;
+}

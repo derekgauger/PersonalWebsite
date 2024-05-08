@@ -1,0 +1,14 @@
+.tag {
+    color: white;
+    margin-top: 3px;
+    font-size: .7em;
+    display: flex;
+    width: fit-content;
+    background-color: rgb(112, 112, 112);
+    padding: 1px 8px;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 4px;
+}

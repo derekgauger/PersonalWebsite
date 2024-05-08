@@ -1,0 +1,47 @@
+.contact-logos-contact-page {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-direction: row;
+    padding: 20px 0px;
+}
+
+.contact-logos-contact-page img {
+    padding: 0 50px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.contact-logos-contact-page a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.contact-logos-contact-page a:hover {
+    text-decoration: underline;
+    img {
+        transform: scale(1.1);
+    }
+}
+
+.contact-logos-contact-page a div {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.center-contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.center-contact-form h1 {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    font-variant: small-caps;
+}
